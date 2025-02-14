@@ -24,6 +24,8 @@ jobs:
             arch: arm64
           - os: windows-2025
             arch: amd64
+          - os: windows-2025
+            arch: arm64
 
     steps:
       - name: Checkout code
